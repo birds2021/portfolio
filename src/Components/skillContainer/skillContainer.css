@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+/* Amatic SC */
+
+.skillContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Amatic SC", sans-serif;
+  margin: 10rem !important;
+  padding: 40px;
+}
+.skillContainer_image img {
+  flex: 0.4;
+  margin: 4vh 0;
+  border-radius: 6px;
+  object-fit: contain;
+}
+.skillContainer_skillset {
+  padding: 3px;
+  margin: 10px 30px;
+  font-size: 2rem;
+}
+.skillContainer_skillset h3 {
+  padding: 10px;
+  margin: 5px;
+  text-decoration: #fff;
+}
+.skillContainer_slider {
+  flex: 0.6;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+}
+
+.skillContainer_slider .MuiLinearProgress-colorPrimary {
+  background-color: rgb(65, 71, 71);
+  color: yellow;
+}
+
+.skillContainer_slider1 .MuiLinearProgress-bar1Determinate {
+  background-color: rgb(0, 255, 55);
+}
+
+.skillContainer_slider2 .MuiLinearProgress-bar1Determinate {
+  background-color: rgb(0, 174, 255);
+}
+
+.skillContainer_slider3 .MuiLinearProgress-bar1Determinate {
+  background-color: rgb(221, 122, 216);
+}
+
+.skillContainer_slider4 .MuiLinearProgress-bar1Determinate {
+  background-color: rgb(240, 238, 110);
+}

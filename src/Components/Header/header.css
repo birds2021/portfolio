@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+/* Akaya Telivigala */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+/* Architects Daughter */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Header {
+  background-color: black;
+  color: white;
+  top: 0;
+  position: sticky;
+  z-index: 2000;
+}
+
+.Header_Left {
+  font-family: "Akaya Telivigala", sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+  flex: 0.4;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.Header_Left span {
+  color: orangered;
+}
+
+.Header_Right {
+  font-family: "Architects Daughter", sans-serif;
+  align-items: center;
+  display: flex;
+  flex: 0.6;
+  float: right;
+  margin-top: -6vh;
+  cursor: pointer;
+}
+.Header_Right h6 {
+  margin: 0px 20px;
+  letter-spacing: 1.5px;
+  padding: 5px 6px;
+  font-size: 18px;
+  transition: transform 150ms ease-in-out;
+}
+.Header_Right h6:hover {
+  background-color: orangered;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 6px;
+  transform: scale(1.1);
+  font-size: 15px;
+}
+
+.Header_Right h6:active {
+  border-bottom: 2px solid orangered;
+}

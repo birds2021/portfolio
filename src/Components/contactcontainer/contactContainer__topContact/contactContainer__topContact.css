@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+/* Julee */
+
+.contactContainer {
+  font-family: "Julee", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin: 220px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+}
+.contactContainer_address {
+  padding: 10px;
+  font-size: 30px;
+  margin: 4px;
+}
+
+.contactContainer_address .MuiSvgIcon-root {
+  color: rgb(255, 81, 0);
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.contactContainer_mail {
+  padding: 10px;
+  font-size: 30px;
+  margin: 4px;
+}
+.contactContainer_mail .MuiSvgIcon-root {
+  color: rgb(255, 0, 0);
+  margin-right: 10px;
+  margin-top: 30px;
+  font-size: 40px;
+}

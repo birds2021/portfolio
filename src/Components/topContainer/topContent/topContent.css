@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+/* Syne Mono */
+@import url("https://fonts.googleapis.com/css2?family=Asul&display=swap");
+/* Asul */
+
+.topContent {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  font-family: "Syne Mono", sans-serif;
+  font-size: 18px;
+  margin: 40px;
+  padding: 70px;
+}
+.topContent_button {
+  text-decoration: none;
+  color: #fff;
+  padding: 3px;
+  font-size: 15px;
+  font-family: "Asul", sans-serif;
+}
+.topContent_buttonA {
+  border-radius: 7px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(255, 38, 0);
+  transition: transform 300ms ease-in-out;
+  outline: none;
+}
+.topContent_buttonA:active {
+  transform: scale(-0.3);
+}
+.topContent_name {
+  padding: 5px;
+  margin: 2px;
+}
+
+.topContent_about {
+  padding: 5px;
+  margin: 2px;
+}
